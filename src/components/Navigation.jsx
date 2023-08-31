@@ -11,10 +11,10 @@ export default function Navigation() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <LinkContainer to='/'><Nav.Link>Home</Nav.Link></LinkContainer>
-              <LinkContainer to='/About'><Nav.Link>About Me</Nav.Link></LinkContainer>
-              <LinkContainer to='/Contact'><Nav.Link>Contact</Nav.Link></LinkContainer>
-              <LinkContainer to='/Resume'><Nav.Link>Resume</Nav.Link></LinkContainer>
+                <LinkContainer to='/About'><Nav.Link>About Me</Nav.Link></LinkContainer>
+                <LinkContainer to='/Portfolio'><Nav.Link>Portfolio</Nav.Link></LinkContainer>
+                <LinkContainer to='/Contact'><Nav.Link>Contact</Nav.Link></LinkContainer>
+                <LinkContainer to='/Resume'><Nav.Link>Resume</Nav.Link></LinkContainer>
             </Nav>
           </Navbar.Collapse>
         </Container>
