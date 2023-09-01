@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container'
 
 export default function Contact() {
     return(
+    // another react-bootstrap component
     <Container>
         <h1>Contact Me</h1>
         <Form>
@@ -19,6 +20,7 @@ export default function Contact() {
 
         <Form.Group className="mb-3" controlId="message">
             <Form.Label>Message</Form.Label>
+            {/* textarea gives us a multi line message box */}
             <Form.Control as="textarea"/>
         </Form.Group>
         <Button variant="primary" type="submit">
