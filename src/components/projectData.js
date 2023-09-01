@@ -1,3 +1,4 @@
+// sequestering my portfolio data on this page to clean up my component code. 
 const projects = [
     {
         name: "The Monkey's Cup",

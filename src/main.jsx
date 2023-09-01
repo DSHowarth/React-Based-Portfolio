@@ -6,6 +6,7 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Resume from './components/Resume'
 
+//
 const router = createBrowserRouter([
   {
     path: '/',
@@ -32,5 +33,6 @@ const router = createBrowserRouter([
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
+  // We have to use the RouterProvider component to give our router the ability to adjust pages
     <RouterProvider router={router}/>
 )
