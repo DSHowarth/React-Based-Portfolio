@@ -11,7 +11,7 @@ export default function About() {
                 the requirements so I can go enjoy my last birthday before turning 30. This won&apos;t be here when I&apos;m
                 applying for jobs, honest. 
             </p>
-            <img src='./src/assets/dazzle.png' alt='A very realistic picture of the developer'/>
+            <img src='./public/assets/dazzle.png' alt='A very realistic picture of the developer'/>
         </Container>
     )
 }
