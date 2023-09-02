@@ -4,6 +4,8 @@
 
 This is a webdev portfolio, made by me, using React. It doesn't look good yet, but it will before anyone sees this.
 
+![Screenshot of front page](.\public\assets\ReactPortfolio.png)
+
 
 ## Usage
 
