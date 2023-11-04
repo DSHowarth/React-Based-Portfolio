@@ -3,6 +3,7 @@ import {Outlet} from 'react-router-dom'
 import Footer from './components/Footer'
 // Getting the page access to bootstrap's css
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './css/style.css'
 
 function App() {
   return (
