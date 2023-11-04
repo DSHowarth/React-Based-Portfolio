@@ -20,28 +20,7 @@ const projects = [
         img: "./assets/IiB.png",
         alt: 'Image of deployed site',
         gitHub: "https://github.com/Popiuy/server-side-api-project"
-    },
-    {
-        name: "Placeholder 1",
-        link: "https://www.google.com/",
-        img: "./assets/bees.jpg",
-        alt: 'Image of deployed site',
-        gitHub: "https://www.google.com/"
-    },
-    {
-        name: "Placeholder 2",
-        link: "https://www.google.com/",
-        img: "./assets/beetle.jpg",
-        alt: 'Image of deployed site',
-        gitHub: "https://www.google.com/"
-    },
-    {
-        name: "Placeholder 3",
-        link: "https://www.google.com/",
-        img: "./assets/fire.jpg",
-        alt: 'Image of deployed site',
-        gitHub: "https://www.google.com/"
-    },
+    }
 ]
 
 export default projects

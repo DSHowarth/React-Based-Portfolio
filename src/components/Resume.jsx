@@ -2,8 +2,7 @@
 export default function Resume() {
     return(
         <div className='container'>
-            {/* Link will be updated in the future when I have a resume I want to show people */}
-            <a href="https://www.youtube.com/watch?v=0H25ve3qts4">Download my full Resume here.</a>
+            <a href="https://drive.google.com/file/d/1U4eTgfduDIspxY3AnNOM7Ngbcqd_0lEt/view?usp=sharing">Download my full Resume here.</a>
             
             <h3>Front End Proficencies</h3>
             <ul>
