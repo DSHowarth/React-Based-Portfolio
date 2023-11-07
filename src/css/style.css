@@ -1,6 +1,9 @@
+
+
 .mainElement {
     background-color: #0A2239;
     color: white;
+    min-height: 100vh;
 }
 
 .foodPic {
@@ -13,8 +16,23 @@
 
 .aboutContainer {
     padding: 30px;
+    border-radius: 25px;
+    border-color: #176087;
+    border-style: solid;
+    border-width: 10px;
 }
 
-.navBar {
+.footer {
     background-color: black;
+    padding: 10px;
+    margin-top: auto;
+}
+
+.socialLink {
+    display: flex;
+    width: min-content;
+}
+
+.socialImg {
+    width: 40px;
 }

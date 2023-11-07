@@ -1,13 +1,19 @@
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row'
 
 export default function Footer() {
     return (
-        <div className="container">
-            <ul>
-                <li><a href="https://github.com/DSHowarth">Github</a></li>
-                <li><a href="https://www.linkedin.com/in/derek-stanley-howarth-933a46106/">LinkedIn</a></li>
-                {/* I don't use social media much, this is about as close as I get to a 'third link'*/}
-                <li><a href="https://raider.io/characters/us/magtheridon/Infiniteseer">Raider.io</a></li>
-            </ul>
+        <div className="footer">
+            <Container>
+                <Row>
+                    <a className="socialLink" href="https://github.com/DSHowarth">
+                        <img className="socialImg" src="./assets/github-mark-white.png"/>
+                    </a>
+                    <a className="socialLink" href="https://www.linkedin.com/in/derekstanleyhowarth/">
+                        <img className="socialImg" src="./assets/LI-In-Bug.png"/>
+                    </a>
+                </Row>
+            </Container>
         </div>
     )
 }
