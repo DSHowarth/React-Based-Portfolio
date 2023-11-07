@@ -3,9 +3,9 @@ import Row from 'react-bootstrap/Row'
 
 export default function About() {
     return(
-        <Container className='bg-dark text-light'>
+        <Container className='aboutContainer'>
             <h1 className='fs-1'>About Me</h1>
-            <p>Hello, and welcome to my portfolio.</p>
+            <h3>Hello, and welcome to my portfolio.</h3>
             <Row>
             <img src='./assets/Headshot.jpg' className='bioPic'alt='A very realistic picture of the developer'/>
             <ul>
@@ -16,14 +16,14 @@ export default function About() {
             </ul>
             </Row>
             <Row>
-            <p>When I'm not coding, I'm</p>
+            <h3>When I'm not coding, I'm</h3>
             <ul>
-            <li>Playing PC games like World of Warcraft. </li>
+            <li>Playing PC games like World of Warcraft.</li>
             <ul><li>I'd link my character, but I don't want to dox myself.</li></ul>
-            <li>Reading and writing</li>
+            <li>Trying to get outdoors</li>
             <li>Battling bad posture from a life at a computer</li>
             <li>Cooking</li>
-            <ul><li>Here's a pizza I made recently. It has nothing to do with web development, but still!</li></ul>
+            <ul><li>Here's a pizza I made recently. This has nothing to do with web development, but I still want you to see it:</li></ul>
             </ul>
             <img src='./assets/Pizza.jpg' className='foodPic' alt='A picture of a very delicious pizza'/>
             </Row>

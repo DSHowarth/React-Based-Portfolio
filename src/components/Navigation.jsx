@@ -9,7 +9,7 @@ import {LinkContainer} from 'react-router-bootstrap';
 export default function Navigation({currentPage, setCurrentPage}) {
     return (
       // react-bootstrap navbar components
-        <Navbar expand="lg" className="bg-body-tertiary">
+        <Navbar expand="lg" data-bs-theme="dark" bg="dark">
         <Container>
           <Navbar.Brand>Derek Stanley-Howarth</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

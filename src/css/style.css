@@ -1,7 +1,20 @@
+.mainElement {
+    background-color: #0A2239;
+    color: white;
+}
+
 .foodPic {
     width: 200px;
 }
 
 .bioPic {
     width: 300px;
+}
+
+.aboutContainer {
+    padding: 30px;
+}
+
+.navBar {
+    background-color: black;
 }

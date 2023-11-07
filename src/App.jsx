@@ -11,7 +11,7 @@ function App() {
     <>
       <Header/>
       {/* Outlet is our placeholder component, it'll be replaced by the router according to our routes */}
-      <main><Outlet/></main>
+      <main className="mainElement"><Outlet/></main>
 
       <Footer/>
     </>
