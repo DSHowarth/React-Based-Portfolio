@@ -9,7 +9,7 @@ const projects = [
         desc: "A storefront for a (fake) escape room ft. customer signup/login and reservations"
     },
     {
-        name: "Keep Reacting and Nobody Gets Sued",
+        name: "Keep Reacting and No One Gets Sued",
         link: "https://evening-chamber-43103-8afc86137a8c.herokuapp.com/",
         img: "./assets/KeepReacting.png",
         alt: 'Image of deployed site',
