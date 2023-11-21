@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/Col';
 
 export default function About() {
     return(
-        <Container className='aboutContainer'>
+        <Container className='contentContainer'>
             <h1 className='fs-1'>About Me</h1>
             <Row>
                 <Col sm md={4} lg={3}>
