@@ -11,7 +11,7 @@ export default function Portfolio() {
             <div>
                 {/* create a project component for every item in my portfolio array */}
                 {projects.map((item, index) => {
-                    return <Project name={item.name} link={item.link} img={item.img} gitHub={item.gitHub} key={index}/>
+                    return <Project name={item.name} link={item.link} img={item.img} gitHub={item.gitHub} desc={item.desc} key={index}/>
                 })}
             </div>
         </Container>

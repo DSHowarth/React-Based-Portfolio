@@ -1,5 +1,3 @@
-
-
 .mainElement {
     background-color: #0A2239;
     color: white;
@@ -35,4 +33,31 @@
 
 .socialImg {
     width: 40px;
+}
+
+.project {
+    position: relative;
+}
+
+.hoverBox {
+    position: absolute;
+    width: 400px;
+    height: 100%;
+    background-color: white;
+    content: "";
+    opacity: 0;
+    transition: opacity .25s;
+}
+
+.hoverBox:hover {
+    opacity: .33;
+}
+
+.backgroundImg {
+    width: 400px;
+}
+
+.projLinks {
+    position: absolute;
+    top: 0;
 }

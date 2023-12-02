@@ -1,16 +1,30 @@
+import {useState} from 'react';
 
-export default function Project({name, link, img, alt, gitHub}) {
+export default function Project({name, link, img, alt, gitHub, desc}) {
+
+    const [isHovered, setIsHovered] = useState(false);
+
     return(
         // a div with links and images according to the props
-        <div>
-            <a className="project" href={link}>
-                <h4>{name}</h4>
 
-                <img src={img} className="backgroundimg" alt={alt}/>
-            </a>
-            <a href={gitHub}>
-                <h4>Github Repo</h4>
-            </a>
+        <div>
+            <h4>{name}</h4>
+            <p>{desc}</p>
+            <div
+                className= "project"
+                onMouseEnter={() => setIsHovered(true)}
+                onMouseLeave={() => setIsHovered(false)}>
+                <div className="hoverBox"/>
+                <img src={img} className="backgroundImg" alt={alt}/>
+
+                {isHovered && 
+                    <div className='projLinks'>
+                        <a href={gitHub}><h4>Github Repo</h4></a>
+                        <a href={link}><h4>Direct Site Link</h4></a>
+                    </div>}
+            </div>
+
+
         </div>
     )
 }
