@@ -14,14 +14,16 @@ export default function Project({name, link, img, alt, gitHub, desc}) {
                 className= "project"
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}>
-                <div className="hoverBox"/>
-                <img src={img} className="backgroundImg" alt={alt}/>
-
+                <div className="hoverBox">
                 {isHovered && 
                     <div className='projLinks'>
                         <a href={gitHub}><h4>Github Repo</h4></a>
                         <a href={link}><h4>Direct Site Link</h4></a>
                     </div>}
+                </div>
+                <img src={img} className="backgroundImg" alt={alt}/>
+
+
             </div>
 
 
