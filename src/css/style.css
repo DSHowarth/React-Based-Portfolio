@@ -36,6 +36,15 @@
 }
 
 .project {
+    border-top: 2px solid white;
+    margin-top: 20px;
+}
+
+.projName {
+    margin-top: 20px;
+}
+
+.projectLink {
     position: relative;
     width: 400px;
 }

@@ -1,18 +1,18 @@
 import {useState} from 'react';
 import Button from 'react-bootstrap/Button';
 
-export default function Project({name, link, img, alt, gitHub, desc}) {
+export default function Project({name, link, img, alt, gitHub, desc, first}) {
 
     const [isHovered, setIsHovered] = useState(false);
 
     return(
         // a div with links and images according to the props
 
-        <div>
-            <h4>{name}</h4>
+        <div className={!first && "project"}>
+            <h4 className="projName">{name}</h4>
             <p>{desc}</p>
             <div
-                className= "project"
+                className= "projectLink"
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}>
                 <div className="hoverBox">
