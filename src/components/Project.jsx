@@ -1,4 +1,5 @@
 import {useState} from 'react';
+import Button from 'react-bootstrap/Button';
 
 export default function Project({name, link, img, alt, gitHub, desc}) {
 
@@ -17,8 +18,8 @@ export default function Project({name, link, img, alt, gitHub, desc}) {
                 <div className="hoverBox">
                 {isHovered && 
                     <div className='projLinks'>
-                        <a href={gitHub}><h4>Github Repo</h4></a>
-                        <a href={link}><h4>Direct Site Link</h4></a>
+                        <Button href={gitHub} target="_blank">Github Repo</Button>
+                        <Button href={link} target="_blank">Direct Site Link</Button>
                     </div>}
                 </div>
                 <img src={img} className="backgroundImg" alt={alt}/>
