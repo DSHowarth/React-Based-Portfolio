@@ -18,8 +18,8 @@ export default function Project({name, link, img, alt, gitHub, desc}) {
                 <div className="hoverBox">
                 {isHovered && 
                     <div className='projLinks'>
-                        <Button href={gitHub} target="_blank">Github Repo</Button>
-                        <Button href={link} target="_blank">Direct Site Link</Button>
+                        <Button href={gitHub} target="_blank" className="projLinkButton">Github Repo</Button>
+                        <Button href={link} target="_blank" className="projLinkButton">Direct Site Link</Button>
                     </div>}
                 </div>
 

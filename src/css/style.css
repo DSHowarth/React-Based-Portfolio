@@ -59,7 +59,11 @@
 }
 
 .projLinks {
-    position: absolute;
-    opacity: 1;
-    background-color: transparent;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.projLinkButton {
+    margin: 5px;
 }
