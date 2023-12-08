@@ -3,7 +3,6 @@ import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Portfolio from './components/Portfolio'
 import About from './components/About'
-import Contact from './components/Contact'
 import Resume from './components/Resume'
 import ErrorMessage from './components/Error'
 
@@ -21,10 +20,6 @@ const router = createBrowserRouter([
       {
         path: '/Portfolio',
         element: <Portfolio/>
-      },
-      {
-        path: '/Contact',
-        element: <Contact/>
       },
       {
         path: '/Resume',

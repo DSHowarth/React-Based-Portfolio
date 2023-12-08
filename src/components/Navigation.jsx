@@ -32,13 +32,6 @@ export default function Navigation({currentPage, setCurrentPage}) {
                     Portfolio
                   </Nav.Link>
                 </LinkContainer>
-                <LinkContainer to='/Contact'>
-                  <Nav.Link 
-                    onClick={() => setCurrentPage('Contact')}
-                    className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'} >
-                    Contact
-                  </Nav.Link>
-                </LinkContainer>
                 <LinkContainer to='/Resume'>
                   <Nav.Link 
                     onClick={() => setCurrentPage('Resume')}
