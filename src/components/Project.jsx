@@ -22,6 +22,7 @@ export default function Project({name, link, img, alt, gitHub, desc}) {
                         <Button href={link} target="_blank">Direct Site Link</Button>
                     </div>}
                 </div>
+
                 <img src={img} className="backgroundImg" alt={alt}/>
 
 

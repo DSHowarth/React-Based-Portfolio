@@ -37,7 +37,7 @@
 
 .project {
     position: relative;
-
+    width: 400px;
 }
 
 .hoverBox {
@@ -46,14 +46,12 @@
     justify-content: center;
     width: 400px;
     height: 100%;
-    background-color: white;
     content: "";
-    opacity: 0;
-    transition: opacity .25s;
+    transition: background-color .25s;
 }
 
 .hoverBox:hover {
-    opacity: .33;
+    background-color: rgb(255,255,255,.33);
 }
 
 .backgroundImg {
@@ -62,5 +60,6 @@
 
 .projLinks {
     position: absolute;
-
+    opacity: 1;
+    background-color: transparent;
 }
